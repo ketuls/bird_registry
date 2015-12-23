@@ -1,0 +1,35 @@
+== README
+
+Ruby on Rails is used as web framework. Mongodb is used as an database. 
+Note: Generally RDBMS like MySql or Postgres is used, but for this application we are not using RDBMS.
+OS: Code is developed on MacOS but can be ran on any OS. Below are the instructions for the linux based OS. 
+
+Setup:
+
+1)  Refer following links to install ROR :
+    http://www.tutorialspoint.com/ruby-on-rails/rails-installation.htm
+    http://installrails.com/
+
+2) Install Mongodb and up the server :
+   https://docs.mongodb.org/v3.0/installation/
+   Code assumes 1 instance of mongodb is running on localhost on default port(27017). Please change mongodb.yml if required(after step 3).
+
+3) Checkout the code from git repo: https://github.com/ketuls/bird_registry
+
+5) bundle install
+
+6) rails s -p 3003
+
+
+Versions of critical component.
+* Ruby version  => ruby 2.0.0p481
+* Rails Version => Rails 4.2.5
+* Mongo Version => mongo 2.2.1
+* MongoId Version => mongoid 5.0.2
+
+
+TODO:
+1) Write Test cases.
+2) Better Documentation.
+3) Query Performance Optimization.
+4) Load testing.
