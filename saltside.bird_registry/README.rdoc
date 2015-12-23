@@ -14,7 +14,7 @@ Setup:
    https://docs.mongodb.org/v3.0/installation/
    Code assumes 1 instance of mongodb is running on localhost on default port(27017). Please change mongodb.yml if required(after step 3).
 
-3) Checkout the code from git repo: https://github.com/ketuls/bird_registry
+3) Clone the repo: https://github.com/ketuls/bird_registry and cd saltside.bird_registry
 
 5) bundle install
 
@@ -33,3 +33,4 @@ TODO:
 2) Better Documentation.
 3) Query Performance Optimization.
 4) Load testing.
+5) Remove nested directory for repo.
