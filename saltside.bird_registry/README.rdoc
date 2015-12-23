@@ -20,6 +20,9 @@ Setup:
 
 6) rails s -p 3000
 
+7) Test the api's. We can use Advanced Rest Client, Postman or any other tools to test the api's.
+    Refer:https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo
+
 
 Versions of critical component.
 * Ruby version  => ruby 2.0.0p481
